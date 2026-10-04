@@ -2,8 +2,8 @@ namespace JHSafetyAR.Data
 {
     public static class AppConstants
     {
-        public const string APP_NAME = "JH Safety AR";
-        public const string APP_SUBTITLE = "Industrial Safety Training & Certification";
+     public const string APP_NAME = "Suraksha AR";
+    public const string APP_SUBTITLE = "AR-Based Industrial Safety Training";
         public const string APP_VERSION = "1.0.0";
         public const string API_BASE_URL = "http://10.0.2.2:8000/api/v1";
 

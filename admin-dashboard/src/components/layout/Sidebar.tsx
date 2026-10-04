@@ -44,7 +44,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => 
           <HardHat className="w-5 h-5 fill-slate-950 stroke-slate-950 stroke-[1.5]" />
         </div>
         <div>
-          <div className="font-extrabold text-base tracking-wider text-white leading-tight">JH-SAFETY</div>
+          <div className="font-extrabold text-base tracking-wider text-white leading-tight">SURAKSHA AR</div>
           <div className="text-[11px] text-slate-400 font-medium">Admin Dashboard</div>
         </div>
       </div>
@@ -90,7 +90,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => 
           </div>
           <p className="text-xs font-bold text-white leading-snug">Safety Today</p>
           <p className="text-xs font-bold text-white leading-snug">A Better Tomorrow</p>
-          <p className="text-[10px] text-amber-400 font-semibold mt-1 tracking-wide">— JH-SAFETY</p>
+          <p className="text-[10px] text-amber-400 font-semibold mt-1 tracking-wide">— SURAKSHA AR</p>
         </div>
       </div>
 
@@ -98,7 +98,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => 
       <div className="p-3 border-t border-slate-800/80">
         <button
           onClick={() => {
-            if (confirm('Are you sure you want to log out of JH-SAFETY Admin?')) {
+            if (confirm('Are you sure you want to log out of Suraksha AR Admin?')) {
               window.location.reload();
             }
           }}
